@@ -1,0 +1,8 @@
+References:
+-----------
+- https://www.traceable.ai/blog-post/serverless-vs-containers
+- https://www.site24x7.com/learn/dns-redirects.html
+- https://www.site24x7.com/learn/external-dns.html
+- https://www.educative.io/answers/how-to-use-multithreading-in-java
+- https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
+- https://docs.bmc.com/docs/TSOperations/113/f5-load-balancer-sample-configuration-892260471.html

@@ -5,7 +5,7 @@ This repository contains resources to learn system design.
 ## Folders
 
 * `SD_Learn`: This folder contains self-learn and testing level files.
-* `assignments`: This folder contains assignments per class.
+* `Assignments`: This folder contains assignments per class.
 
 ## License
 
