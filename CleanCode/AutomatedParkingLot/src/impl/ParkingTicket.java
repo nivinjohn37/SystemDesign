@@ -22,7 +22,7 @@ public class ParkingTicket {
 
     public void calculateCost(){
         long duration = exitTimeStamp - entryTimeStamp;
-        cost = duration * 0.0001;
+        cost = duration * 0.01;
     }
 
     public double getCost(){
