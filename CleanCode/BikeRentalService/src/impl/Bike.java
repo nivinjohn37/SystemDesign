@@ -6,9 +6,9 @@ public class Bike implements Rentable {
     private String bikeId;
     private boolean isRented;
 
-    public Bike(String bikeId, boolean isRented){
+    public Bike(String bikeId){
         this.bikeId = bikeId;
-        this.isRented = isRented;
+        this.isRented = false;
     }
 
     @Override
@@ -27,12 +27,16 @@ public class Bike implements Rentable {
     }
 
     @Override
-    public void returnItem() {
+    public void returnBike() {
         if(isRented){
             isRented = false;
             System.out.println("Returned bikeId: " + bikeId);
         }else{
             System.out.println("Not rented bike -> bikeId: " + bikeId);
         }
+    }
+
+    public String getBikeId() {
+        return bikeId;
     }
 }
